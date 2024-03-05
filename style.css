@@ -1,1 +1,75 @@
+ <style>
+        body {
+            background: url('bmwb.jpg') center/cover fixed no-repeat;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
 
+        header {
+            position: relative;
+            text-align: center;
+            padding: 20px;
+            background-color: transparent;
+        }
+
+        h1, h2, p {
+            margin: 0;
+        }
+
+        .topnav {
+            background-color: transparent;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .topnav a {
+            display: inline-block;
+            color: #f2f2f2;
+            padding: 14px 16px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .topnav input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            background-color: transparent;
+            border: none;
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .image-container img {
+            width: 30%;
+            margin: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: transparent;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
